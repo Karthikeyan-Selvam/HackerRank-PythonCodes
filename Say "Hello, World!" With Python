@@ -1,0 +1,2 @@
+#It prints everything you mentioned in between the double quoates
+print("Hello, World!")
