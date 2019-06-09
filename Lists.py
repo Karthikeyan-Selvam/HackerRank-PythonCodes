@@ -1,7 +1,7 @@
 if __name__ == '__main__':
     N = int(input())
 
-test= []
+test= [] #empty list
 for i in range(N):
     inp=list(input().split())
 
@@ -18,4 +18,4 @@ for i in range(N):
     elif(inp[0]=='pop'):
         test.pop()
     elif(inp[0]=='reverse'):
-        test.reverse()
+        test.reverse() 
