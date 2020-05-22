@@ -1,0 +1,15 @@
+import textwrap
+
+def wrap(string, max_width):
+    """Next line of code will separate the whole string into words and
+    words length is based on our max_width input
+    """
+    temp = textwrap.wrap(string, max_width)
+    #add the new line 
+    result = "\n".join(temp)
+    return result
+
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = wrap(string, max_width)
+    print(result)
